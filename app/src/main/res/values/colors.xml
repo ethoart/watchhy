@@ -1,0 +1,7 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="omni_green">#FF00FF2A</color>
+    <color name="omni_yellow">#FFFFD400</color>
+    <color name="omni_red">#FFFF1A1A</color>
+    <color name="dial_ring">#FF1A1A1A</color>
+</resources>

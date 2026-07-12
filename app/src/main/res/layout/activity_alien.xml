@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <com.watch.omnitrix.AlienGlowView
+        android:id="@+id/glowView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/alienNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="18dp"
+        android:textColor="@color/omni_green"
+        android:textSize="14sp"
+        android:letterSpacing="0.1"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold" />
+
+</FrameLayout>
