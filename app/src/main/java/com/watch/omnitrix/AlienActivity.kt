@@ -1,11 +1,11 @@
 package com.watch.omnitrix
 
+import android.app.Activity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 
-class AlienActivity : AppCompatActivity() {
+class AlienActivity : Activity() {
 
     companion object {
         const val EXTRA_ALIEN_ID = "extra_alien_id"
