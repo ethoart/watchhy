@@ -37,5 +37,7 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.10.1'
+    // No external dependencies - keeps compileSdk pinned to 28 (matching the
+    // watch's Android 9 exactly) and avoids AAR metadata requirements from
+    // newer androidx libraries that demand a higher compileSdk.
 }
